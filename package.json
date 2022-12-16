@@ -1,4 +1,5 @@
 {
+    "homepage": "https://mackiegarcia17.github.io/aircall-app",
     "name": "frontend-hiring-challenge",
     "version": "1.0.0",
     "description": "Leap test",
@@ -9,6 +10,8 @@
     "private": false,
     "scripts": {
         "start": "webpack-dev-server --mode development --open",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "build": "webpack --mode production"
     },
     "dependencies": {
@@ -34,6 +37,7 @@
         "babel-loader": "^8.2.5",
         "css-loader": "^6.7.1",
         "file-loader": "^6.2.0",
+        "gh-pages": "^4.0.0",
         "html-loader": "0.5.*",
         "html-webpack-plugin": "^5.5.0",
         "sass": "^1.55.0",
