@@ -1,0 +1,10 @@
+@import './../../styles/colors.scss';
+
+.activity-feed {
+    max-height: 420px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    background-color: $grey-bg;
+}

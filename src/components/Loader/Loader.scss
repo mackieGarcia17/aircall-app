@@ -1,0 +1,12 @@
+.loader {
+    background-color: grey;
+    width: 376px;
+    height: 666px;
+    position: absolute;
+    opacity: 0.6;
+    text-align: center;
+
+    .MuiCircularProgress-root {
+        margin-top: 250px;
+    }
+}

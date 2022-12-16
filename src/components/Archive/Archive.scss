@@ -1,0 +1,30 @@
+@import './../../styles/colors.scss';
+
+.archive {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    align-items: center;
+    background-color: $grey-bg;
+
+    &__content {
+        display: flex;
+        height: 60px;
+        width: 320px;
+        border-left: 2px solid $light-border;
+        border-right: 2px solid $light-border;
+        border-bottom: 2px solid $light-border;
+        align-items: center;
+        border-bottom-right-radius: 11px;
+        border-bottom-left-radius: 11px;
+        padding-left: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: $grey-bg;
+        cursor: pointer;
+
+        p {
+            margin: 5px 0 0 20px;
+        }
+    }
+}

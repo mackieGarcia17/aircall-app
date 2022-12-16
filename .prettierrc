@@ -1,0 +1,16 @@
+{
+    "singleQuote": true,
+    "trailingComma": "all",
+    "tabWidth": 4,
+    "semi": false,
+    "jsxBracketSameLine": true,
+    "printWidth": 120,
+    "overrides": [
+        {
+            "files": "*.jsx",
+            "options": {
+                "parser": "flow"
+            }
+        }
+    ]
+}

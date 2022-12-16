@@ -1,0 +1,12 @@
+{
+    "git.ignoreLimitWarning": true,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "workbench.editor.showTabs": true,
+    "workbench.editor.enablePreviewFromCodeNavigation": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.enablePreview": false,
+    "search.useParentIgnoreFiles": false,
+    "search.useIgnoreFiles": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

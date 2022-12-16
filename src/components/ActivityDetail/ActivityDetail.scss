@@ -1,0 +1,104 @@
+@import './../../styles/colors.scss';
+
+.activity-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px dotted $light-border;
+
+    &__header {
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        color: $light-font;
+        margin-top: -7px;
+        background: white;
+    }
+
+    &__content {
+        background-color: $grey-bg;
+        margin: 10px 0 30px;
+        border: 2px solid $light-border;
+        border-radius: 11px;
+        height: 50px;
+        width: 320px;
+        display: grid;
+        grid-template-columns: 55px 206px 60px;
+
+        &__left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .small {
+                position: relative;
+                margin-left: -20px;
+                margin-bottom: 18px;
+            }
+        }
+
+        &__middle {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                margin: 0;
+                width: 205px;
+                height: 14px;
+                text-align: left;
+
+                white-space: nowrap;
+                overflow: hidden;
+                display: inline-block;
+                text-overflow: ellipsis;
+            }
+
+            p.from {
+                margin-bottom: 5px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            p.to {
+                font-size: 12px;
+                color: $light-font;
+            }
+        }
+
+        &__right {
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            font-size: 10px;
+            color: $light-font;
+            font-weight: bold;
+            width: 60px;
+
+            &__restore {
+                .MuiSvgIcon-root {
+                    color: $air-call-green;
+                }
+            }
+
+            &__time {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 40px;
+                height: 20px;
+                border-left: 2px dotted $light-border;
+            }
+            &__day {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20px;
+                height: 20px;
+                border-top: 2px solid $light-border;
+                border-left: 2px solid $light-border;
+                border-bottom: 2px solid $light-border;
+            }
+        }
+    }
+}
